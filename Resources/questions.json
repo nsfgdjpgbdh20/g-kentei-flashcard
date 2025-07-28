@@ -1,0 +1,144 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "aiDefinition",
+      "questionText": "「人工知能」という用語を最初に提唱した人物は誰か？",
+      "choices": [
+        "アラン・チューリング",
+        "ジョン・マッカーシー",
+        "マービン・ミンスキー",
+        "フランク・ローゼンブラット"
+      ],
+      "correctAnswer": 1,
+      "explanation": "「人工知能（Artificial Intelligence）」という用語は、1956年のダートマス会議でジョン・マッカーシーによって初めて使われました。この会議は人工知能分野の出発点とされています。",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "category": "machineLearningOverview",
+      "questionText": "機械学習において、教師なし学習の代表的な手法はどれか？",
+      "choices": [
+        "線形回帰",
+        "クラスタリング",
+        "サポートベクターマシン",
+        "決定木"
+      ],
+      "correctAnswer": 1,
+      "explanation": "クラスタリングは教師なし学習の代表的な手法で、正解ラベルが与えられていないデータから、類似したデータをグループ化する手法です。線形回帰、SVM、決定木は教師あり学習の手法です。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "category": "deepLearningTechnology",
+      "questionText": "ディープラーニングにおいて、勾配消失問題を解決するために提案された活性化関数はどれか？",
+      "choices": [
+        "シグモイド関数",
+        "tanh関数",
+        "ReLU関数",
+        "ステップ関数"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ReLU（Rectified Linear Unit）関数は、勾配消失問題を軽減するために提案された活性化関数です。x > 0の時はx、x ≤ 0の時は0を出力し、計算が簡単で勾配が消失しにくい特徴があります。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "category": "aiSocialImplementation",
+      "questionText": "AIの社会実装において、「説明可能AI（XAI）」が重要とされる理由は何か？",
+      "choices": [
+        "計算コストを削減するため",
+        "AI の判断根拠を人間が理解できるようにするため",
+        "学習データの量を減らすため",
+        "処理速度を向上させるため"
+      ],
+      "correctAnswer": 1,
+      "explanation": "説明可能AI（eXplainable AI, XAI）は、AIの判断プロセスを人間が理解・説明できるようにする技術です。特に医療、金融、法務などの重要な意思決定分野では、AIの判断根拠を説明できることが信頼性と説明責任の観点から重要です。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "category": "mathStatistics",
+      "questionText": "ベイズの定理において、P(A|B) = P(B|A) × P(A) / P(B) で表される P(A) は何を意味するか？",
+      "choices": [
+        "事後確率",
+        "尤度",
+        "事前確率",
+        "周辺確率"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ベイズの定理において、P(A)は事前確率（prior probability）を表します。これは、証拠Bを観測する前に仮説Aが真である確率です。P(A|B)は事後確率、P(B|A)は尤度、P(B)は周辺確率です。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "category": "aiLawEthics",
+      "questionText": "AI開発において、「アルゴリズムバイアス」が問題となる理由は何か？",
+      "choices": [
+        "計算処理が遅くなるため",
+        "特定の属性を持つ人々に対して不公平な結果をもたらす可能性があるため",
+        "学習データの容量が大きくなるため",
+        "プログラミングが複雑になるため"
+      ],
+      "correctAnswer": 1,
+      "explanation": "アルゴリズムバイアスは、学習データの偏りやアルゴリズム設計の問題により、特定の人種、性別、年齢などの属性を持つ人々に対して不公平な判断や差別的な結果をもたらす問題です。これは社会的公正性と倫理の観点から重要な課題です。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "category": "aiGovernance",
+      "questionText": "AIガバナンスにおいて「人間中心のAI」の原則で最も重要な考え方はどれか？",
+      "choices": [
+        "AIが人間よりも高性能であること",
+        "AIが人間の価値観と整合し、人間の福祉に寄与すること",
+        "AIが完全に自律的に動作すること",
+        "AIの処理速度が最大化されること"
+      ],
+      "correctAnswer": 1,
+      "explanation": "人間中心のAI（Human-centered AI）の原則では、AIが人間の価値観、尊厳、権利と整合し、人間社会の福祉向上に寄与することが最も重要です。AIは人間を置き換えるのではなく、人間を支援し、人間の能力を拡張する存在であるべきとされています。",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "category": "deepLearningTechnology",
+      "questionText": "Transformer アーキテクチャの特徴として正しいものはどれか？",
+      "choices": [
+        "RNNと同様に系列データを逐次処理する",
+        "Attention機構により並列処理が可能",
+        "CNNの畳み込み層を複数積み重ねた構造",
+        "教師なし学習専用のアーキテクチャ"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Transformerは「Attention is All You Need」論文で提案されたアーキテクチャで、Self-Attention機構により系列データを並列処理できる点が特徴です。RNNのような逐次処理ではなく、全てのトークン間の関係を同時に計算できるため、大幅な高速化を実現しています。",
+      "difficulty": "hard"
+    },
+    {
+      "id": 9,
+      "category": "aiDefinition",
+      "questionText": "チューリングテストの目的は何か？",
+      "choices": [
+        "コンピュータの計算速度を測定すること",
+        "機械が人間らしい知能を持っているかを判定すること",
+        "プログラムのバグを発見すること",
+        "データベースの性能を評価すること"
+      ],
+      "correctAnswer": 1,
+      "explanation": "チューリングテストは、アラン・チューリングが1950年に提案した、機械が人間と区別がつかない程度の知能を持っているかを判定するテストです。人間の質問者が機械と人間の回答を区別できなければ、その機械は知能を持っていると考える判定基準です。",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "category": "machineLearningOverview",
+      "questionText": "強化学習において、「報酬」の役割は何か？",
+      "choices": [
+        "学習データの量を示す指標",
+        "エージェントの行動に対するフィードバック信号",
+        "計算コストの測定値",
+        "データの品質を表す値"
+      ],
+      "correctAnswer": 1,
+      "explanation": "強化学習において報酬（reward）は、エージェントが取った行動に対する環境からのフィードバック信号です。エージェントは累積報酬を最大化するように学習し、良い行動には正の報酬、悪い行動には負の報酬（罰則）が与えられます。",
+      "difficulty": "medium"
+    }
+  ]
+}

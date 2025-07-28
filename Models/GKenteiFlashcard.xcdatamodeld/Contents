@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StudyRecord" representedClassName="StudyRecord" syncable="YES">
+        <attribute name="answeredAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="isCorrect" optional="NO" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="questionId" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="selectedAnswer" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="studyMode" optional="NO" attributeType="String"/>
+    </entity>
+    <entity name="UserPreferences" representedClassName="UserPreferences" syncable="YES">
+        <attribute name="dailyGoal" optional="NO" attributeType="Integer 32" defaultValueString="10" usesScalarValueType="YES"/>
+        <attribute name="id" optional="NO" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="interstitialAdCount" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isAdFree" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="isDarkMode" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastInterstitialDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastReviewRequestDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="reviewRequestCount" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="StudyRecord" positionX="-63" positionY="-18" width="128" height="104"/>
+        <element name="UserPreferences" positionX="-54" positionY="9" width="128" height="149"/>
+    </elements>
+</model>
